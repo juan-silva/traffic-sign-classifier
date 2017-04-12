@@ -1,8 +1,8 @@
-#Traffic Sign Recognition
+# Traffic Sign Recognition
 
-##Introduction
+## Introduction
 
-###Applying a Convolutional Neural Network to classify images from the german traffic signs system
+### Applying a Convolutional Neural Network to classify images from the german traffic signs system
 
 ---
 
