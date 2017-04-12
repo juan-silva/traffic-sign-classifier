@@ -23,7 +23,7 @@ The code for this project is contained in a jupyter notebook included in this re
 For esy review you may open the file `Traffic_Sign_Classifier.md` in your browser from this github page, which is a markdown version of the code.
 
 
-##Dataset Exploration
+## Dataset Exploration
 
 The data set consists of images retrieved from the German traffic system. The following is a summary of the dataset:
 
@@ -51,9 +51,9 @@ This is a sample image with corresponding class label
 
 The code for the summary and visualization can be found in the 2nd and 3rd code cell of the Jupyter Notebook.
 
-##Design and Test a Model Architecture
+## Design and Test a Model Architecture
 
-###Preprocessing
+### Preprocessing
 
 Two steps were applied to images for processing. First, the images were converted to grayscale so we can deal only with one colour space.
 
@@ -67,7 +67,7 @@ In this case values were normilized from -1 to +1 with a mean of 0.
 
 The full code for the preprocessing can be found in cell 4 of the Jupyter Notebook.
 
-###Model Architercture
+### Model Architercture
 
 The problem of classifying traffic sign images presents certain properties that makes it well suited for convolutional neural networks approach. Namely, we have images with certain known patterns, and we know that the patterns that make those signs are the same regardless of where in the image they appear. 
 
@@ -102,7 +102,7 @@ After initial testing there didn't seem to be signs of overfitting. So Dropout w
 
 The code for the model can be found in cell 5. 
 
-###Training Pipeline
+### Training Pipeline
 
 A training pipeline is setup to use the model. First the parameters for Epochs, Batch Size and Learning Rate are defined as 12, 128 and 0.005 respectively. These values were found by trial and error running multiple training sessions.
 
@@ -112,7 +112,7 @@ In order to evaluate the performance of the model, we define the correct predict
 
 Full code for the training pipeline can be found in cell 6.
 
-###Training Session
+### Training Session
 
 The final results from training the model are as follows:
 
